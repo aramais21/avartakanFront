@@ -1,9 +1,10 @@
+import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 const FindMe = () => {
     return (
         <View style = {styles.main} >
-            <Text> Find Me</Text>
+            <Text> Find Me </Text>
         </View>
     )
 }
