@@ -17,10 +17,6 @@ const LetsRock = () => {
 
         return data.find((item) => item._id === id );
     },[id, data])
-    // {
-    // "tabs":"https://lh3.googleusercontent.com/proxy/MeWrSvDpwei9GoSpSTMaK8qUXh4UQTIxjogM0a6fEIP7nTaV0igLgfwPLlr8PbDQsqcbGNYgegxykJ7JPuXkNwkuP-Bn9HUUSgEio397insh-u1G",
-    // "chords":"https://freshsheetmusic.com/media/catalog/product/m/e/metallica-enter_sandman-musicnotes_thumbnail.png",
-    // "lyrics":"blah blah blah enter sandman","_id":"6088551b71a76029e4e1fbd0","__v":0}
 
     useEffect(() => {
         request('/song', 'GET', {}, {});
@@ -28,8 +24,6 @@ const LetsRock = () => {
 
     return (
         <>
-
-
             {loading && <Loading />}
             
             {!loading && !error && data && (
@@ -83,7 +77,6 @@ const styles = StyleSheet.create({
     modal: {
         width: '100%',
         height: '100%',
-        border: 'none',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
