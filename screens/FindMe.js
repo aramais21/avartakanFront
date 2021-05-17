@@ -2,7 +2,7 @@ import React from 'react';
 import { useEffect } from 'react';
 import { ScrollView, StyleSheet, Text, View } from 'react-native';
 import Loading from '../components/Loading';
-import { BLACK_HEX, RED_HEX, GREY_HEX } from '../config/constants';
+import { BLACK_HEX, RED_HEX } from '../config/constants';
 import useFetch from '../hooks/useFetch';
 
 const FindMe = () => {

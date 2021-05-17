@@ -11,7 +11,7 @@ const Loading = () => (
 const styles = StyleSheet.create({
     main: {
         width: '100%',
-        height: '100vh',
+        height: '100%',
         backgroundColor: BLACK_HEX,
         display: 'flex',
         justifyContent: 'center',
